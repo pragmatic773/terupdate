@@ -1,0 +1,63 @@
+# Compiled source code
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.out
+*.app
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+.cache
+.DS_Store # Khusus untuk macOS
+Thumbs.db # Khusus untuk Windows
+
+# Package managers
+node_modules/ # Jika menggunakan Node.js
+vendor/ # Jika menggunakan Composer (PHP) atau Bundler (Ruby)
+.venv/ # Jika menggunakan virtual environment Python
+__pycache__/ # Khusus untuk Python
+.gradle # Jika menggunakan Gradle (Java/Android)
+.idea/ # Jika menggunakan IntelliJ IDEA
+.vscode/ # Jika menggunakan VS Code
+
+# OS-specific files
+.AppleDouble
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Sensitive information - JANGAN PERNAH commit file-file ini!
+config.ini # Atau file konfigurasi lainnya yang berisi password, API key, dll.
+.env # File environment variables
+*.pem # Private keys
+*.key
+
+# Files specific to your IDE or editor
+.idea/ # IntelliJ IDEA project files
+.vscode/ # VS Code project files
+*.suo # Visual Studio solution user options
+*.user # Visual Studio user files
+
+# Deployment specific files
+.env.production # Environment variables untuk production
+config/deploy.rb # Contoh file konfigurasi deployment Capistrano
+
+# Jika menggunakan Docker
+.dockerignore
+
+# File-file lain yang tidak perlu di-track
+*.bak # Backup files
+*.dump # Database dumps
+*.gz # Compressed files yang besar dan tidak perlu di-track versinya
+*.zip # Arsip
+
+# Contoh spesifik untuk Pragmatic773 (ganti dengan yang sesuai)
+pragmatic773/data/ # Folder data lokal yang tidak perlu di-share
+pragmatic773/temp/ # Folder temporary files
+pragmatic773/logs/ # Folder log lokal
